@@ -1,0 +1,95 @@
+*{margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+.logo-contioner {font-size: 20px;}
+
+h1{color:black;text-align:center;margin-top: 10px;margin-bottom: 10px;font-size: 18pt;}
+h2{color:black;text-align:center;font-size: 18pt;}
+h3{color:black;text-align:center;font-size: 18pt;}
+h4{color:black;text-align:center;font-size: 18pt;}
+h5{color:black;text-align:center;font-size: 18pt;}
+h6{color:black;text-align:center;font-size: 18pt;}
+
+.right-section{width:50%;float:right;border-style: none;border-width: none;}
+
+.about-me-container{background-color:#cb76e6af;background-size: cover;}
+
+body{font-family: 'Playfair Display', serif;;font-size: 16px;font-weight: 400;color:#777;}
+.header{color:white;height:100vh;background-image: linear-gradient(to right,#545e537a,#cb76e6af),
+ url(../makeup.jpg);background-size: cover;background-position: center;
+}
+.section-heading {
+    text-align: center;
+    margin: 20px;
+  }   
+
+  .section-container {
+    max-width: 1400px;
+    margin: 20px auto;
+  }
+
+  .scroll-container {
+    position: absolute;
+    bottom: -300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .icon-container {
+    text-align: center;
+  }
+  
+.heading-main{
+    font-size: 60px;
+    letter-spacing: 25px;
+}
+
+.heading-subsection{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.heading{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.contact-me-contioner{
+    background-color: #6528b4;font-size: 20px;
+    right: 20px;
+    position: fixed;
+    bottom: 0px;
+    color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+.contact-e{background-color:#6528b4;font-size:14px;color: white;
+    left: 14px;
+    position: fixed;
+    bottom:0px;color :white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;}
+
+@media screen and (max-width: 720px){
+    .heading-main{
+        font-size: 20px;
+        letter-spacing: 8px;
+    }
+    .contact-me-contioner{
+        display: none;
+    }
+    .heading-subsection{
+        font-size: 10px;
+        letter-spacing: 2.5px;
+    }
+    .about-me-content{background-color: #cb76e6af;
+        
+    }
+    
+}
